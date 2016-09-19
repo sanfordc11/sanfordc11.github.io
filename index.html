@@ -1,0 +1,101 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>An Ordinary Bird</title>
+        <style>
+            body {
+                background: rgb(102, 102, 204);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: baskerville;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            [id=all-contents] {
+                max-width: 800px;
+                margin: auto;
+            }
+
+            /* navigation menu */
+            nav {
+                background: rgb(32, 87, 67);
+                margin: 0 auto;
+                margin-bottom: 20px;
+                display: flex;
+                padding: 10px;
+                border-radius: 5px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            [class=sidebar] {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            [class=sidebar] img {
+                width: 200px;
+            }
+            [class=content] {
+                flex: 1;
+                padding: 15px;
+            }
+            [class=interests] header {
+                font-size: 1.25em;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div id="all-contents">
+            <nav>
+                <header>Just An Ordinary Bird</header>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href= "portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+            
+            <main>
+                <div class="sidebar">
+                    <img src="http://martybugs.net/gallery/photos/IMG_12077_600.jpg">
+                </div>
+                
+                <div class ="content">
+                    <header>Corie Sanford</header>
+                    <p>Teacher, Writer</p>
+                    <p><i>Is anything really ordinary?</i></p>
+                    <section class="interests">
+                        <header>Interests</header>
+                        <ul>
+                            <li>Travel</li>
+                            <li>Communication</li>
+                            <li>Ideas</li>
+                        </ul>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
